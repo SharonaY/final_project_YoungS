@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Final Young S</title>
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/883632ce06.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- navigation -->
+      <div class="primary-header container flex">
+        <p class="site_title">Wheels on the Go</p>
+       
+        <!-- toggle button -->
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav class="nav">
+          <ul
+            id="primary-navigation"
+            data-visible="false"
+            class="primary-navigation flex"
+          >
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#about_sect" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#featured_sect" class="nav__link">Featured</a></li>
+            
+          </ul>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+      <section class="hero spacer">
+        <div class="container hero__container">
+          <h1 class="hero__title">
+            Accessibility <span>doesn't have to be a struggle</span>
+          </h1>
+          <div class="hero__content flow">
+            <img src="woman_wheelchair.jpeg" alt="woman in a wheelchair on a trail">
+            <p>
+              Central Florida offers a wide range of attractions, parks,restaurants, and more. Living with a disability does not mean you have to miss out!
+            </p>
+            <button class="btn__primary">
+              <a href="#" class="btn">I want to learn more</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      
+        <!-- ABOUT SECTION -->
+    <section class="about spacer" id="about_sect">
+      <p class="mx-auto">Don't let limited mobility be a barrier to getting out and enjoying the activities you love. Many activities are ADA compliant and my offer accessibility accomodations to fit your needs. </p>
+      <div class="about__container container row mx-auto">
+        <div class="about__content col">
+          <h2 class="about__title title">Attractions</h2>
+          <ul class="about_list">
+            <li>Disney World</li>
+            <li>Universal Orlando</li>
+            <li>SeaWorld</li>
+            <li>Legoland</li>
+            <li>Fun Spot America</li>
+          </ul>
+        </div>
+        <div class="about__content col">
+          <h2 class="about__title title">Parks and Gardens</h2>
+          <ul class = "about_list">
+            <li>Lake Eola</li>
+            <li>Wekiwa Springs State Park</li>
+            <li>Cranes Roost</li>
+            <li>Harry P. Leu Gardens</li>
+            <li>Bill Frederick Park</li>
+          </ul>
+        </div>
+        <div class="about__content col">
+          <h2 class="about__title title">Museums</h2>
+          <ul class="about_list">
+            <li>Orange County Regional History Center </li>
+            <li>Central Florida Railroad Museum</li>
+            <li>Orlando Museum of Art</li>
+            <li>Rollins Museum of Art</li>
+            <li>Orlando Science Center</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN -->
+    <section class="cards spacer flow" id="featured_sect">
+      <h2>Featured</h2>
+     <div class="container row row-cols-1 row-cols-md-1 g-4 mx-auto">
+        <div class="col">
+          <div class="card">
+            <img src="gatorland.jpg" class="card-img-top" alt="gatoland gauntlet">
+            <div class="card-body">
+              <h5 class="card-title">Gatorland</h5>
+              <p class="card-text">Gatorland has an accessible zip line experience! This attraction is accessible to people with mobility challenges or other disabilities. The ride, which is wheelchair accessible, allows participants to travel 350 feet down a zip line, soaring over the park and a lake of giant alligators</p>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="col">
+        <ul>
+          <li>
+            <a
+              href="https://www.tiktok.com/en/"
+              target="_blank"
+              class="fa-brands fa-tiktok fa-lg"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="fa-brands fa-facebook fa-lg"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="fa-brands fa-instagram fa-lg"
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <p>Copyright 2026 Sharona Young</p>
+      </div>
+    </footer>
+  </body>
+</html>

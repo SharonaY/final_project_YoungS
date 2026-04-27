@@ -127,6 +127,7 @@ header {
   background: hsla(226, 15%, 27%, 0.75);
   backdrop-filter: blur(0.625rem);
   gap: 2em;
+  justify-content: flex-start;
 }
 .primary-navigation[data-visible="true"] {
   transform: translateX(0%);
